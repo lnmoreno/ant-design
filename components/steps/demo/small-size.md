@@ -20,9 +20,9 @@ const { Step } = Steps;
 
 ReactDOM.render(
   <Steps size="small" current={1}>
-    <Step title="Finished" />
-    <Step title="In Progress" />
-    <Step title="Waiting" />
+    <Step title="Registrada" />
+    <Step title="Desembaraçada" />
+    <Step title="Averbada" />
   </Steps>,
   mountNode,
 );
